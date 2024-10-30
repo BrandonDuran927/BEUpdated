@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "840278519767",
+    "project_id": "beupdated-781d4",
+    "storage_bucket": "beupdated-781d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840278519767:android:5a30361c0f4c1b6aaf2592",
+        "android_client_info": {
+          "package_name": "com.example.beupdated"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCclYFeMJT6S106JZjH_MDlgpaOAmVkxtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
