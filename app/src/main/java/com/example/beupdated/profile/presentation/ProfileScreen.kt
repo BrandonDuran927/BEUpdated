@@ -55,7 +55,8 @@ fun ProfileScreen(
     onSearchScreen: () -> Unit,
     onSavedProductScreen: () -> Unit,
     onProductDisplayScreen: () -> Unit,
-    onOrderScreen: () -> Unit
+    onOrderScreen: () -> Unit,
+    onLogout: () -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -353,7 +354,7 @@ fun ProfileScreen(
                         containerColor = colorResource(R.color.gold)
                     ),
                     onClick = {
-                        // TODO: Logout the user
+                        onLogout()
                     }
                 ) {
                     Text(
@@ -374,6 +375,7 @@ private fun Prev() {
         onNotificationScreen = {},
         onSavedProductScreen = {},
         onProductDisplayScreen = {},
-        onOrderScreen = {}
+        onOrderScreen = {},
+        onLogout = {},
     )
 }

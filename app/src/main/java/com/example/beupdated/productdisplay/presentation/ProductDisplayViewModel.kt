@@ -8,9 +8,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.beupdated.authentication.domain.usecases.SignOutUseCase
 import com.example.beupdated.common.utilities.CustomResult
-import com.example.beupdated.productdisplay.domain.ProductDisplayRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

@@ -302,18 +302,18 @@ fun ProductDisplayScreen(
                     }
                 }
             }
-
-
-            item {
-                Button(
-                    onClick = {
-                        action(ProductDisplayAction.OnLogoutUser)
-                        onLoggedOut()
-                    }
-                ) {
-                    Text(text = "Logout")
-                }
-            }
+//
+//
+//            item {
+//                Button(
+//                    onClick = {
+//                        action(ProductDisplayAction.OnLogoutUser)
+//                        onLoggedOut()
+//                    }
+//                ) {
+//                    Text(text = "Logout")
+//                }
+//            }
 
         }
     }

@@ -28,7 +28,7 @@ import com.example.beupdated.paymentsuccess.presentation.paymentNavGraph
 import com.example.beupdated.product.presentation.productNavGraph
 import com.example.beupdated.productdisplay.presentation.ProductDisplayViewModel
 import com.example.beupdated.productdisplay.presentation.productDisplayNavGraph
-import com.example.beupdated.profile.profileNavGraph
+import com.example.beupdated.profile.presentation.profileNavGraph
 import com.example.beupdated.registration.presentation.SignUpViewModel
 import com.example.beupdated.registration.presentation.signUpNavGraph
 import com.example.beupdated.savedproduct.presentation.savedProductNavGraph
@@ -66,8 +66,6 @@ class MainActivity : ComponentActivity() {
 
     }
 }
-
-// TODO: Implement a registration
 
 @Composable
 fun NavGraph(
@@ -132,7 +130,9 @@ fun NavGraph(
         )
 
         profileNavGraph(
-            navController = navController
+            navController = navController,
+            authViewModel = authViewModel,
+            productDisplayViewModel = productDisplayViewModel
         )
 
         orderNavGraph(
